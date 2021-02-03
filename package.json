@@ -3,6 +3,9 @@
   "version": "1.0.6",
   "main": "index.js",
   "types": "index.d.ts",
+  "scripts": {
+    "prepublish": "tsc"
+  },
   "files": [
     "index.js",
     "index.d.ts",
